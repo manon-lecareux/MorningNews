@@ -1,0 +1,82 @@
+
+@import '~antd/dist/antd.css';
+
+h4 {
+  color: white;
+  font-weight: bold
+}
+
+.textwhite {
+  color: white;
+}
+
+.Login-page{
+    height:100vh;
+    background-image: url('/images/flat01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.contain-log{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Login-input{
+  margin: 15px;
+  width: 400px;
+}
+
+.titleHome{
+text-align: center;
+font-size: 25px;
+color:white;
+font-style: italic;
+}
+
+.Sign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0 15px 0;
+  border-radius: 5%;
+  background-color: rgba(63,169,255,0.5);
+  margin: 40px;
+}
+
+.Sign .Login-input{
+  width: 250px;
+}
+
+.HomeThemes{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.Banner {
+  height: 80px;
+  background-image: url('/images/flat01.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.Card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.modal {
+  background: rgba(0,0,0,0.5);
+  }
+
